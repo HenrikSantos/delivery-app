@@ -1,0 +1,15 @@
+version: '3'
+services:
+  dbDeliveryApp:
+    image: mysql:8.0.23
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    container_name: deliveryApp_database
+    ports:
+      - 3306:3306
+    restart: always
+    networks:
+      - deliveryAppNetWorks
+networks:
+  deliveryAppNetWorks:
+    driver: bridge

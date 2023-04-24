@@ -1,0 +1,31 @@
+{
+  "name": "delivery-app",
+  "version": "1.0.0",
+  "description": "Uma aplicação WEB Full-Stack feito com react, node, express e mysql, é um app de delivery",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenrikSantos/delivery-app"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenrikSantos/delivery-app/issues"
+  },
+  "homepage": "https://github.com/HenrikSantos/delivery-app#readme",
+  "devDependencies": {
+    "axios": "0.26.1",
+    "dotenv": "16.0.0",
+    "jsonwebtoken": "8.5.1",
+    "moment": "2.29.1",
+    "mysql2": "2.3.3",
+    "puppeteer": "13.5.1",
+    "sequelize": "6.17.0",
+    "sequelize-cli": "6.4.1"
+  }
+}
